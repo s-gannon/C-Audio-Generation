@@ -70,9 +70,11 @@ double square(wave_t * const WAVE, const double TIME){
 }
 
 double triangle(wave_t * const WAVE, const double TIME){
-	return ((4 * WAVE->amplitude) / WAVE->phase) * abs(((TIME - (WAVE->phase / 4)) % (int)WAVE->phase) - (WAVE->phase / 2)) - WAVE->amplitude;
+	//todo: implementation
+	return 0;
 }
 
 double sawtooth(wave_t * const WAVE, const double TIME){
-
+	//todo: implementation
+	return 0;
 }
