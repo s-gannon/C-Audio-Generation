@@ -1,5 +1,9 @@
 #include "waves.h"
 
+#define PI 3.141592653589793
+#define PI_2 (PI * 2)
+#define TAYLOR_SERIES_ITERS 10
+
 wave_t* wave_init(
 	double amp, 
 	double freq,

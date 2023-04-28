@@ -1,10 +1,6 @@
 #ifndef WAVES_H
 #define WAVES_H
 
-#define PI 3.141592653589793
-#define PI_2 (PI * 2)
-#define TAYLOR_SERIES_ITERS 10
-
 typedef struct wave_s{
 	double amplitude;
 	double frequency;
